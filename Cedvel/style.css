@@ -1,0 +1,56 @@
+body {
+   background-color: steelblue;
+}
+
+
+.wrapper {
+   
+   
+   width: 300px;
+   min-height: 60px;
+   border: 3px inset black;
+   margin: 0 auto;
+   background-color:burlywood;
+   border-radius: 50px;
+   box-shadow: 7px 7px 45px  rgb(14, 209, 199);
+}
+
+.month, .day {
+   display: block;
+   width: 200px;
+   height: 50px;
+   margin: 20px auto;
+   border-radius: 30px;
+   background-color: aqua;
+   text-align: center;
+   font-size: 18px;
+} 
+
+
+.monthDayUstF, .monthDayUstS, .monthDayUstFo, .monthDayUstFi, .monthDayAltF, .monthDayAltS, .monthDayAltFo, .monthDayAltFi, .falser {
+   margin: 0 auto;
+   width: 250px;
+   padding-left: 20px;
+   padding-top: 10px;
+   border: 3px solid rebeccapurple;
+   border-radius: 30px;
+   margin-top: 30px;
+   background-color: royalblue;
+   font-size: 20px;
+   box-shadow: 7px 7px 45px  rgb(14, 209, 199);
+}
+
+.falser {
+   padding-top: 10px;
+   text-align: center;
+   color:  red;
+}
+.bax {
+   display: block;
+   width: 150px;
+   background-color: silver;
+   height: 45px;
+   border-radius: 20px;
+   margin: 20px auto; 
+   box-shadow: 7px 7px 45px  rgb(123, 9, 175);
+}
