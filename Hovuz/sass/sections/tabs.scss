@@ -1,0 +1,102 @@
+.goods {
+   padding-top: 60px;
+   .buttonprev {
+      display: none;
+   }
+   .buttonnext {
+      display: none;
+   }
+   &__tabs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+      &__tab {
+         box-sizing: border-box;
+         padding: 4px;
+         width: 230px;
+         height: 42px;       
+         background: rgba(0, 0, 0, 0.0001);
+         border: 2px solid #D0D0D0;
+         box-sizing: border-box;
+         font-family: MuseoModerno;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 15px;
+         line-height: 18px;
+         text-align: center;
+         text-transform: uppercase;
+         color: #6B6B6B;
+         border-radius: 130px;
+         &:hover {
+            cursor: pointer;
+         }
+        
+   }
+}
+
+.activer {
+   background-color: #C70101;
+}
+ 
+
+@media screen and (max-width: 992px) {
+  .goods {
+.slider__container{ 
+   position: relative;
+}
+      
+     &__tabs {
+        width: 1380px;
+        justify-content: space-between;
+        position: relative;
+        left: 0;
+        transition: all ease 1s;
+     }
+     .slider{
+        width: 230px;
+        margin: 0 auto;
+        overflow: hidden;
+     }
+   .buttonprev {
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 193px;
+      border-color: rgba(255, 255, 255, 0,1);
+      border: none;
+      font-size: 30px;
+
+   }
+   .buttonnext {
+      display: block;
+      position: absolute;
+      top: 4px;
+      right: 191px;
+      border-color: white;
+      border: none;
+      font-size: 30px;
+   }
+  }
+}
+@media screen and (max-width: 768px) {
+   .buttonprev {
+      top: -7px;
+      left: 77px;
+   }
+   .buttonnext {
+      top: -7px;
+      right: 77px;
+   }
+}
+@media  (max-width: 680px) {
+   .buttonprev {
+      top: -7px;
+      left: 77px;
+   }
+   .buttonnext {
+      top: -7px;
+      right: 77px;
+   }
+
+}

@@ -1,0 +1,107 @@
+.contactus{
+   background: #b5c1c0;
+   height: auto;
+   padding:60px 0 80px 0;
+   
+   &__form {
+      display: flex;
+      flex-direction: column;
+      & input {
+         width: 303px;
+         height: 54px;
+         left: 0px;
+         top: 0px;
+         background: #FFFFFF;
+         margin-top: 11px;
+      }
+   }
+   &__button {
+      width: 303px;
+      height: 58px;
+      left: 0px;
+      top: 200px;
+      background: #C70101;
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      color: #FFFFFF;
+      margin-top: 17px;
+   }
+   &__tittle {
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 45px;
+      text-align: center;
+      margin-bottom: 22px;
+   }
+   &__foryou {
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+   }
+   &__social {
+      margin-top: 90px;
+   }
+   &__social a {
+      display: block;
+      margin-top: 30px;
+      img {
+         width: 30px;
+         height: 30px;
+         object-fit: cover;
+         margin-right: 15px;
+      }
+   }
+   
+  
+  
+}
+@media only screen and (max-width: 992px) {
+  .contactus {
+     &__colone {
+        margin: 0 auto 0 90px;
+     }
+     &__foryou {
+        font-size: 15px;
+        line-height: 15px;
+     }
+     &____social {
+        margin: 0 auto;
+     }
+  }
+}
+@media only screen and (max-width: 467px) {
+   .contactus {
+      &__colone {
+         margin: 0 auto 0 20px;
+      }
+   }
+}
+@media only screen and (max-width: 320px) {
+   .contactus {
+      &__form {
+         display: flex;
+         flex-direction: column;
+         & input {
+            width: 250px;
+            height: 54px;
+            left: 0px;
+            top: 0px;
+            background: #FFFFFF;
+            margin-top: 11px;
+         }
+      }
+      &__button {
+         width: 250px;
+      }
+      &__colone {
+         margin: 0 auto 0 0;
+      }
+   }
+}

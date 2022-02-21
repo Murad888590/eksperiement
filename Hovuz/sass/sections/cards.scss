@@ -1,0 +1,171 @@
+.cart {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0,0,0,.9)
+}
+.cart-list {
+   width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	border: 1px solid white;
+}
+.close {
+   width: 200px;
+	height: 50px;
+	background-color: #fff;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+.product {
+   width: 303px;
+   height: 480px;
+   background: #a0a0a0;
+   border: 2px solid #E8E8E8;
+   border-radius: 30px;
+   box-sizing: border-box;
+   margin-top: 30px;
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+   }
+   &__image  {
+      width: 300px;
+      height: 200px;
+      
+      img {
+         display: block;
+         margin: 18px auto 0 auto;
+         border-radius: 30px;
+         width: 280px;
+         height: 200px;
+         object-fit: cover;
+      }
+   }
+   &__tittle {
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      color: #0D0D0D;
+      margin-top: 10px;
+   }
+   &__desc {
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: #0D0D0D;
+   }
+   &__footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+   }
+   &__price {
+      width: 127px;
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 20px;
+      color: #050505;
+   }
+   &__buttons {
+      width: 135px;
+   }
+   &__basket {
+      width: 135px;
+      height: 35px;
+      border-radius: 10%;
+      background: #C70101;
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      &:hover {
+         background: yellow;
+      }
+      &:active {
+         background: white;
+         color: black;
+      }
+   }
+   &__buy {
+      width: 135px;
+      height: 35px;
+      border-radius: 10%;
+      background: black;
+      font-family: MuseoModerno;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      &:hover {
+         background: yellow;
+      }
+      &:active {
+         background: white;
+         color: black;
+      }
+   }
+}
+
+.tabcontent {
+   margin: 20px auto 0 auto ;
+  
+}
+.tabrow {
+   margin: 0 auto;
+}
+.openbasket{
+   width: 285px;
+   height: 60px;
+   border-radius: 30px;
+   background-color: black;
+   color: blanchedalmond;
+   padding-top: 4px;
+   margin-left: 416px;
+   margin-top: 30px;
+   &:hover {
+      background-color: red;
+      color: yellow;
+   }
+   &:active {
+      background-color: blue;
+      color: white;
+   }
+}
+@media (max-width: 992px) {
+   .product__wrapper {
+      justify-content: space-around;
+     
+   }
+}
+@media (max-width: 768px) {
+   .product__wrapper {
+      flex-direction: column;
+      margin: 0 auto;
+     
+   }
+}
+
